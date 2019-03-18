@@ -11,7 +11,7 @@ import RecordContext from '@strong-roots-capital/record-context'
  * Collection of one or more indicator values derived from source
  * time-series record.
  */
-interface IndicatorRecord {
+interface IndicatorRecord<T = any> {
     /**
      * Context of record data.
      */
@@ -24,7 +24,7 @@ interface IndicatorRecord {
      * Map of indicator name and associated values (objects), in a
      * shape analogous to Records.
      */
-    indicators: Map<string, any>
+    indicators: Map<string, T>
 }
 
 
