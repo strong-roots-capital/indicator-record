@@ -34,7 +34,7 @@ interface IndicatorRecord {
      * Map of indicator name and associated values (objects), in a
      * shape analogous to Records.
      */
-    indicator: Map<string, any>
+    indicators: Map<string, any>
 }
 ```
 

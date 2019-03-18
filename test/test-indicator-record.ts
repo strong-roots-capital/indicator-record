@@ -28,7 +28,7 @@ test('IndicatorRecord is of expected form', t => {
                 Close: 5,
                 Volume: 6
             },
-            indicator: indicatorMap
+            indicators: indicatorMap
         }
     }
     const indicatorRecord: IndicatorRecord = returnIndicatorRecord()
