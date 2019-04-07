@@ -45,7 +45,6 @@
   "homepage": "https://github.com/strong-roots-capital/IndicatorRecord",
   "dependencies": {
     "@strong-roots-capital/record-context": "^1.0.0",
-    "@strong-roots-capital/timeseries-record-base": "^1.0.0",
     "timeseries-record": "^1.0.0"
   },
   "devDependencies": {
