@@ -1,6 +1,6 @@
 {
   "name": "@strong-roots-capital/indicator-record",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Interface for Records transformed by indicators",
   "main": "dist/indicator-record.js",
   "types": "dist/indicator-record.d.ts",
